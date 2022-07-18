@@ -15,7 +15,7 @@ export default function GraduacaoContent() {
       >
       Eu estou em transição de carreira, vindo da área de engenharia de produção,
       estou estudando na área de tecnologia da informação a pouco menos de um ano.
-      Estou focando na área do front-end, mas eu aberto para aprender conteúdo 
+      Estou focando na área do front-end, mas estou aberto à aprender conteúdo 
       de outras áreas.
       </Text>
       

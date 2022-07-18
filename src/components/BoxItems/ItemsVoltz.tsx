@@ -35,7 +35,7 @@ export default function ItemsVoltz() {
             color="gray.500"
             fontWeight="500"
           >
-            Great Place to Word
+            Great Place to Work
           </Text>
         </Flex>
         

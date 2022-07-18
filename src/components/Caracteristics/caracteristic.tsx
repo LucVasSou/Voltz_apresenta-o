@@ -6,20 +6,18 @@ import Link from "next/link";
 interface CaracteristicListProps {
   icon: string;
   text: string;
+  url: string;
 }
 
-export default function CaracteristicList({icon, text}: CaracteristicListProps) {
+export default function CaracteristicList({icon, text, url}: CaracteristicListProps) {
   const isMobile = useBreakpointValue({
     base: false,
     sm: true,
   })
 
-  if(text === "Graduação"){
-    text = "Graduacao"
-  }
 
   return (
-    <Link href={`/apresentacao/${text}`}>
+    <Link href={`/apresentacao/${url}`}>
     <Flex
       direction={["row", "column"]}
       align="center"

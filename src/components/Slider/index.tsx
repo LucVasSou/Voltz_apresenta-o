@@ -13,7 +13,7 @@ export default function Slider() {
   return (
     <Flex 
     w="100%"
-    maxW={["300px","720px", "980px"]}
+    maxW={["300px", "720px", "720px", "980px"]}
     mx="auto"
     mb={["5", "10"]}
     h={["250px", "450px"]}
@@ -40,7 +40,7 @@ export default function Slider() {
         align="center"
         justify="center"
         direction="column"
-        bgImage="url(/linkedin2.png)"
+        bgImage={["url(/linkedin.png)","url(/linkedin.png)","url(/linkedin2.png)","url(/linkedin2.png)"]}
         bgRepeat="no-repeat"
         bgSize="cover"
         textAlign="center"
@@ -59,7 +59,7 @@ export default function Slider() {
         align="center"
         justify="center"
         direction="column"
-        bgImage="url(/github.png)"
+        bgImage={["url(/github.png)","url(/github.png)","url(/github.png)","url(/github2.png)"]}
         bgRepeat="no-repeat"
         bgSize="cover"
         textAlign="center"

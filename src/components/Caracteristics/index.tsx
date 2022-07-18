@@ -18,16 +18,16 @@ export default function Caracteristic() {
       gap={[1, 5]}
     >
       <GridItem> 
-        <CaracteristicList icon="pessoa" text="Lucas"/>
+        <CaracteristicList icon="pessoa" text="Lucas" url="Lucas" />
       </GridItem>
       <GridItem>
-        <CaracteristicList icon="lifestyle" text="Hobbies"/>
+        <CaracteristicList icon="lifestyle" text="Hobbies" url="Hobbies"/>
       </GridItem>
       <GridItem>
-        <CaracteristicList icon="openbook" text="Graduação"/>
+        <CaracteristicList icon="graduacao" text="Graduação" url="Graduacao"/>
       </GridItem>
       <GridItem>
-        <CaracteristicList icon="companhia" text="Voltz"/>
+        <CaracteristicList icon="companhia" text="Voltz" url="Voltz"/>
       </GridItem>
     </Grid>
   )
